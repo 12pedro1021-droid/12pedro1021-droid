@@ -41,7 +41,7 @@ Busco constantemente evoluir minhas habilidades e aplicar meus conhecimentos em 
 ## 🧩 Projetos Acadêmicos e Profissionais
 
 ### 🌐 Desenvolvimento Web
-- Criação de páginas modernas utilizando HTML e CSS  
+- Criação de páginas modernas e simples utilizando HTML e CSS  
 - Estrutura responsiva e foco em experiência do usuário  
 
 ### 🤖 Inteligência Artificial
