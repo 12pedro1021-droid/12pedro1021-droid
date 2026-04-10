@@ -5,110 +5,70 @@
 
 ---
 
-## 👨‍💻 Sobre mim
-- 🎯 Focado em tecnologia e inteligência artificial  
-- 📚 Estudando programação e inglês  
-- 💡 Interesse em automação, desenvolvimento web e projetos digitais  
-- 🚀 Buscando evolução constante no mundo digital  
+## 👨‍💻 Perfil Pessoal
+Desenvolvedor em formação, com foco em tecnologia, inteligência artificial e desenvolvimento web.  
+Busco constantemente evoluir minhas habilidades e aplicar meus conhecimentos em projetos digitais e soluções inovadoras.
 
----
-## 🎓 Formação Acadêmica
-
-- 🏫 Ensino Médio  
-  📍  Colégio Doutor Balduino José Décio   
-
-- 🎓 Graduação em Inteligência Artificial (em andamento)  
-  📍 Centro Universitário de Brasília (CEUB)  
-
----
-## 🧠 Em aprendizado
-- 🤖 Inteligência Artificial  
-- 🌐 Desenvolvimento Web  
-- 🇺🇸 Inglês  
-- 🧩 Lógica de programação  
+📫 Email: 12pedro1021@gmail.com  
+🔗 LinkedIn: www.linkedin.com/in/pedro-henrique-1b40b93b7  
 
 ---
 
-## 🛠️ Skills
-<p align="center">
+## 🎓 Formação
+- 🏫 Ensino Médio — Colégio Doutor Balduino José Décio  
+- 🎓 Graduação em Inteligência Artificial — CEUB (em andamento)  
 
-HTML  
-████░░░░░░░░░░ 30%  
+---
 
-CSS  
-███░░░░░░░░░░░ 20%  
+## 💼 Currículo
 
-Python  
-██████░░░░░░░░ 40%  
+### 🧠 Habilidades Técnicas
 
-IAtools  
-████████░░░░░░ 60%  
-
+  <img src="https://img.shields.io/badge/HTML-30%25-1f1f1f?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS-20%25-1f1f1f?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-40%25-1f1f1f?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AI%20Tools-60%25-1f1f1f?style=for-the-badge&logo=python&logoColor=white"/>
 </p>
 
----
-
-## 🧩 Projetos
-
-### 🌐 Projeto de Site
-
-🔹 Desenvolvimento de páginas web modernas  
-🔹 Estrutura responsiva e foco em design  
-🔹 Aplicação prática de HTML e CSS  
+### 🌐 Idiomas
+- 🇧🇷 Português (nativo)  
+- 🇺🇸 Inglês (intermediaro B2)  
 
 ---
 
-### 🤖 Projeto com IA
+## 🧩 Projetos Acadêmicos e Profissionais
 
-🔹 Criação de conteúdo com inteligência artificial  
-🔹 Automação de tarefas digitais  
-🔹 Uso de ferramentas modernas de IA  
+### 🌐 Desenvolvimento Web
+- Criação de páginas modernas utilizando HTML e CSS  
+- Estrutura responsiva e foco em experiência do usuário  
+
+### 🤖 Inteligência Artificial
+- Uso de ferramentas de IA para criação de conteúdo  
+- Aplicação de automações digitais  
 
 ---
 
-## 📊 Atualmente focado em
-- 📚 Aprimorar lógica de programação  
-- 🤖 Evoluir no uso de inteligência artificial  
-- 🌐 Criar projetos web mais avançados  
-- 💼 Construir um portfólio sólido  
+## 📊 Habilidades e Competências
+- 📚 Aprendizado contínuo e autodidata  
+- 💡 Pensamento criativo para soluções digitais  
+- 🚀 Interesse em empreendedorismo digital  
+- 🧠 Capacidade de adaptação a novas tecnologias  
+
+---
+
+## 💬 Recomendações (em desenvolvimento)
+Espaço destinado para futuras recomendações de professores e colegas.
 
 ---
 
 ## 📈 Objetivos
-- Consolidar carreira no digital  
-- Atuar profissionalmente com tecnologia  
+- Consolidar carreira na área de tecnologia  
 - Desenvolver projetos próprios  
-- Gerar renda através da internet  
+- Atuar profissionalmente com inteligência artificial  
+- Gerar oportunidades através do ambiente digital  
 
 ---
-
-## ⚡ Destaque
-- 🚀 Foco em oportunidades e crescimento no ambiente digital  
-- 💡 Mentalidade voltada para aprendizado contínuo  
----
-## 🛠️ Tecnologias
-<p align="center">
-  <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img height="45" src="https://img.icons8.com/fluency/96/artificial-intelligence.png">
-</p>
-
----
-
-## 📫 Contato
-<p align="center"> 
-  <a href="mailto:12pedro1021@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-1f1f1f?style=for-the-badge&logo=gmail&logoColor=white">
-  </a>
-  
-  <a href="https://www.linkedin.com/in/pedro-henrique-1b40b93b7" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-1f1f1f?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a> 
-</p>
-
----
-
+ ## 🛠️ Tecnologias <p align="center"> <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"> <img height="45" src="https://img.icons8.com/fluency/96/artificial-intelligence.png"> </p> 
 <!-- FOOTER -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b2b2b,100:0f0f0f&height=100&section=footer"/>
