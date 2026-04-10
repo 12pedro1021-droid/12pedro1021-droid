@@ -12,7 +12,15 @@
 - 🚀 Buscando evolução constante no mundo digital  
 
 ---
+## 🎓 Formação Acadêmica
 
+- 🏫 Ensino Médio  
+  📍  Colégio Doutor Balduino José Décio   
+
+- 🎓 Graduação em Inteligência Artificial (em andamento)  
+  📍 Centro Universitário de Brasília (CEUB)  
+
+---
 ## 🧠 Em aprendizado
 - 🤖 Inteligência Artificial  
 - 🌐 Desenvolvimento Web  
