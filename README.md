@@ -34,7 +34,7 @@ Busco constantemente evoluir minhas habilidades e aplicar meus conhecimentos em 
 
 ### 🌐 Idiomas
 - 🇧🇷 Português (nativo)  
-- 🇺🇸 Inglês (intermediaro B2)  
+- 🇺🇸 Inglês (intermediario B2)  
 
 ---
 
