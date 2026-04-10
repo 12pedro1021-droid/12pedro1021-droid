@@ -30,6 +30,8 @@ Busco constantemente evoluir minhas habilidades e aplicar meus conhecimentos em 
   <img src="https://img.shields.io/badge/AI%20Tools-60%25-1f1f1f?style=for-the-badge&logo=python&logoColor=white"/>
 </p>
 
+---
+
 ### 🌐 Idiomas
 - 🇧🇷 Português (nativo)  
 - 🇺🇸 Inglês (intermediaro B2)  
