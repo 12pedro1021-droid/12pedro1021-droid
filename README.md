@@ -48,6 +48,10 @@ Busco constantemente evoluir minhas habilidades e aplicar meus conhecimentos em 
 - Uso de ferramentas de IA para criação de conteúdo  
 - Aplicação de automações digitais  
 
+🏗️ Projetos de Planta
+- Criação de plantas baixas e layouts arquitetônicos
+- Desenvolvimento de projetos 2D e 3D para visualização de ambientes
+
 ---
 
 ## 📊 Habilidades e Competências
