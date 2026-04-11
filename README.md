@@ -41,17 +41,22 @@ Busco constantemente evoluir minhas habilidades e aplicar meus conhecimentos em 
 ## 🧩 Projetos Acadêmicos e Profissionais
 
 ### 🌐 Desenvolvimento Web
+
 - Criação de páginas modernas e simples utilizando HTML e CSS  
 - Estrutura responsiva e foco em experiência do usuário  
 
 ### 🤖 Inteligência Artificial
+
 - Uso de ferramentas de IA para criação de conteúdo  
 - Aplicação de automações digitais  
 
-🏗️ Projetos de Planta
-- Criação de plantas baixas e layouts arquitetônicos
-- Desenvolvimento de projetos 2D e 3D para visualização de ambientes
+## 🏗️ Projetos de Planta
 
+- 🏠 Desenvolvimento de plantas baixas digitais para ambientes residenciais  
+- 📐 Criação de layouts funcionais com foco em organização de espaços  
+- 🖥️ Utilização de ferramentas digitais para modelagem 2D e 3D  
+- 🧱 Aplicação de conceitos básicos de arquitetura e design de interiores  
+- 📊 Elaboração de projetos visuais para apresentação de ideias  
 ---
 
 ## 📊 Habilidades e Competências
@@ -62,7 +67,7 @@ Busco constantemente evoluir minhas habilidades e aplicar meus conhecimentos em 
 
 ---
 
-## 💬 Recomendações (em desenvolvimento)
+## 💬 Recomendações 
 Espaço destinado para futuras recomendações de professores e colegas.
 
 ---
