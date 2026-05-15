@@ -10,7 +10,7 @@ Desenvolvedor em formação, com foco em tecnologia, inteligência artificial e 
 Busco constantemente evoluir minhas habilidades e aplicar meus conhecimentos em projetos digitais e soluções inovadoras.
 
 📫 Email: 12pedro1021@gmail.com  
-🔗 LinkedIn: www.linkedin.com/in/pedro-henrique-1b40b93b7  
+🔗 LinkedIn: www.linkedin.com/in/pedrohenriquesilvas
 
 ---
 
