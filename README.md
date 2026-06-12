@@ -1,86 +1,62 @@
-<!-- BANNER PERSONALIZADO -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,100:2b2b2b&height=160&section=header&text=Pedro%20Henrique%20Santos%20Silva&fontSize=28&fontColor=ffffff&animation=fadeIn" />
-</p>
+# PortfolioHUB - Pedro Henrique
 
----
+PortfolioHUB pessoal criado para a entrega final de implantacao com GitHub e apoio de IA. O projeto exibe os repositorios publicos do perfil [12pedro1021-droid](https://github.com/12pedro1021-droid) de forma dinamica, usando React, Vite e a API publica do GitHub.
 
-## 👨‍💻 Perfil Pessoal
-Desenvolvedor em formação, com foco em tecnologia, inteligência artificial e desenvolvimento web.  
-Busco constantemente evoluir minhas habilidades e aplicar meus conhecimentos em projetos digitais e soluções inovadoras.
+## Objetivo
 
-📫 Email: 12pedro1021@gmail.com  
-🔗 LinkedIn: www.linkedin.com/in/pedrohenriquesilvas
+Centralizar os projetos digitais de Pedro Henrique em uma interface responsiva, documentada e preparada para publicacao no GitHub Pages, seguindo os requisitos do PDF do desafio:
 
----
+- Planejamento da implantacao.
+- Configuracao inicial e integracao com GitHub.
+- Gestao de usuarios e seguranca.
+- Compartilhamento e controle de acesso.
+- Finalizacao, testes e preparo para producao.
+- Revisao final e apresentacao.
 
-## 🎓 Formação
-- 🏫 Ensino Médio — Colégio Doutor Balduino José Décio  
-- 🎓 Graduação em Inteligência Artificial — CEUB (em andamento)  
+## Perfil usado
 
----
+- Nome: Pedro Henrique
+- GitHub: `12pedro1021-droid`
+- Foco: Inteligencia Artificial, Ingles, desenvolvimento web, logica de programacao e projetos digitais.
+- Repositorios integrados: carregados automaticamente por `https://api.github.com/users/12pedro1021-droid/repos`.
 
-## 💼 Currículo
+## Tecnologias
 
-### 🧠 Habilidades Técnicas
+- React
+- Vite
+- CSS responsivo
+- Lucide React
+- GitHub API
+- GitHub Pages
+- GitHub Actions
 
-  <img src="https://img.shields.io/badge/HTML-30%25-1f1f1f?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS-20%25-1f1f1f?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-40%25-1f1f1f?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AI%20Tools-60%25-1f1f1f?style=for-the-badge&logo=python&logoColor=white"/>
-</p>
+## Como rodar localmente
 
----
+```bash
+npm install
+npm run dev
+```
 
-### 🌐 Idiomas
-- 🇧🇷 Português (nativo)  
-- 🇺🇸 Inglês (intermediario B2)  
+## Build de producao
 
----
+```bash
+npm run build
+```
 
-## 🧩 Projetos Acadêmicos e Profissionais
+Os arquivos finais ficam na pasta `dist`.
 
-### 🌐 Desenvolvimento Web
+## Deploy no GitHub Pages
 
-- Criação de páginas modernas e simples utilizando HTML e CSS  
-- Estrutura responsiva e foco em experiência do usuário  
+1. Crie um repositorio para o projeto, por exemplo `PortfolioHUB-Pedro`.
+2. Envie este codigo para a branch `main`.
+3. Ative GitHub Pages em `Settings > Pages`.
+4. Se usar GitHub Actions, mantenha o workflow em `.github/workflows/deploy.yml`.
+5. Depois do deploy, registre a URL final no relatorio de entrega.
 
-### 🤖 Inteligência Artificial
+## Documentacao da entrega
 
-- Uso de ferramentas de IA para criação de conteúdo  
-- Aplicação de automações digitais  
+- `PLANO_DE_IMPLANTACAO.md`: plano detalhado das etapas.
+- `SECURITY.md`: politica de seguranca e reporte responsavel.
+- `CONTRIBUTING.md`: fluxo de colaboracao, branches e Pull Requests.
 
-## 🏗️ Projetos de Planta
-
-- 🏠 Desenvolvimento de plantas baixas digitais para ambientes residenciais  
-- 📐 Criação de layouts funcionais com foco em organização de espaços  
-- 🖥️ Utilização de ferramentas digitais para modelagem 2D e 3D  
-- 🧱 Aplicação de conceitos básicos de arquitetura e design de interiores  
-- 📊 Elaboração de projetos visuais para apresentação de ideias  
----
-
-## 📊 Habilidades e Competências
-- 📚 Aprendizado contínuo e autodidata  
-- 💡 Pensamento criativo para soluções digitais  
-- 🚀 Interesse em empreendedorismo digital  
-- 🧠 Capacidade de adaptação a novas tecnologias  
-
----
-
-## 💬 Recomendações 
-Espaço destinado para futuras recomendações de professores e colegas.
-
----
-
-## 📈 Objetivos
-- Consolidar carreira na área de tecnologia  
-- Desenvolver projetos próprios  
-- Atuar profissionalmente com inteligência artificial  
-- Gerar oportunidades através do ambiente digital  
-
----
- ## 🛠️ Tecnologias <p align="center"> <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> <img height="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"> <img height="45" src="https://img.icons8.com/fluency/96/artificial-intelligence.png"> </p> 
-<!-- FOOTER -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b2b2b,100:0f0f0f&height=100&section=footer"/>
-</p>
+Projeto adaptado a partir da ideia do PortfolioHUB de referencia, personalizado para Pedro Henrique e para os criterios do desafio final.
