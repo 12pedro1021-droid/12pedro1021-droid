@@ -1,6 +1,6 @@
 # PortfolioHUB - Pedro Henrique
 
-PortfolioHUB pessoal criado para a entrega final de implantacao com GitHub e apoio de IA. O projeto exibe os repositorios publicos do perfil [12pedro1021-droid](https://github.com/12pedro1021-droid) de forma dinamica, usando React, Vite e a API publica do GitHub.
+PortfolioHUB pessoal criado para a entrega final de implantacao com GitHub e apoio do Google GEMINI. O projeto exibe os repositorios publicos do perfil [12pedro1021-droid](https://github.com/12pedro1021-droid) de forma dinamica, usando React, Vite e a API publica do GitHub.
 
 ## Objetivo
 
@@ -12,6 +12,7 @@ Centralizar os projetos digitais de Pedro Henrique em uma interface responsiva, 
 - Compartilhamento e controle de acesso.
 - Finalizacao, testes e preparo para producao.
 - Revisao final e apresentacao.
+- Uso do Google GEMINI como ferramenta de apoio para planejamento, implementacao, revisao e documentacao.
 
 ## Perfil usado
 
@@ -29,6 +30,7 @@ Centralizar os projetos digitais de Pedro Henrique em uma interface responsiva, 
 - GitHub API
 - GitHub Pages
 - GitHub Actions
+- Google GEMINI como apoio tecnico
 
 ## Como rodar localmente
 
@@ -59,4 +61,4 @@ Os arquivos finais ficam na pasta `dist`.
 - `SECURITY.md`: politica de seguranca e reporte responsavel.
 - `CONTRIBUTING.md`: fluxo de colaboracao, branches e Pull Requests.
 
-Projeto adaptado a partir de referências pesquisadas com auxílio do Gemini, sendo posteriormente personalizado e desenvolvido para Pedro Henrique de acordo com os critérios e requisitos estabelecidos no desafio final
+Projeto adaptado a partir da ideia do PortfolioHUB de referencia, personalizado para Pedro Henrique e para os criterios do desafio final, incluindo a informacao obrigatoria de uso do Google GEMINI.
