@@ -59,4 +59,4 @@ Os arquivos finais ficam na pasta `dist`.
 - `SECURITY.md`: politica de seguranca e reporte responsavel.
 - `CONTRIBUTING.md`: fluxo de colaboracao, branches e Pull Requests.
 
-Projeto adaptado a partir da ideia do PortfolioHUB de referencia, personalizado para Pedro Henrique e para os criterios do desafio final.
+Projeto adaptado a partir de referências pesquisadas com auxílio do Gemini, sendo posteriormente personalizado e desenvolvido para Pedro Henrique de acordo com os critérios e requisitos estabelecidos no desafio final
