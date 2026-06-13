@@ -1,33 +1,41 @@
-# Relatorio de Entrega - PortfolioHUB
+# Relatório de Entrega - PortfolioHUB
 
-## Identificacao
+## Identificação
 
 - Aluno: Pedro Henrique
 - GitHub: https://github.com/12pedro1021-droid
 - Projeto: PortfolioHUB Pedro Henrique
-- Desafio: Implantacao PortfolioHUB + IA
+- Desafio: Implantação PortfolioHUB + IA Gemini
+- Prazo informado no PDF: 14/06/2026 às 23h55
 
-## Resumo da solucao
+## Resumo da solução
 
-Foi criada uma aplicacao web em React e Vite para centralizar o portifolio digital de Pedro Henrique. A pagina consome a API publica do GitHub para listar automaticamente os repositorios mais recentes do perfil `12pedro1021-droid`.
+Foi criada uma aplicação web em React e Vite para centralizar o portfólio digital de Pedro Henrique. A página consome a API pública do GitHub para listar automaticamente os repositórios mais recentes do perfil `12pedro1021-droid`.
 
 ## Requisitos atendidos
 
-1. Planejamento da implantacao: documentado em `PLANO_DE_IMPLANTACAO.md`.
-2. Configuracao e GitHub: integracao com API publica do GitHub.
-3. Usuarios e seguranca: politica em `SECURITY.md`.
+1. Planejamento da implantação: documentado em `PLANO_DE_IMPLANTACAO.md`.
+2. Configuração e GitHub: integração com API pública do GitHub.
+3. Usuários e segurança: política em `SECURITY.md`.
 4. Compartilhamento e acesso: fluxo em `CONTRIBUTING.md`.
-5. Testes e producao: build Vite e workflow de GitHub Pages.
-6. Revisao e apresentacao: roteiro sugerido no plano de implantacao.
+5. Testes e produção: build Vite e workflow de GitHub Pages.
+6. Revisão e apresentação: roteiro sugerido no plano de implantação.
 
-## Evidencias para o PDF final
+## IAs utilizadas
 
-- Print da pagina inicial.
-- Print dos cards de repositorios carregados.
-- Print do repositorio no GitHub.
+- Google Gemini: apoio principal indicado pelo desafio para guiar a trilha de implantação.
+- ChatGPT / Codex: apoio usado na revisão, correção textual, organização da interface e validação local.
+- GitHub Copilot: ferramenta opcional registrada como apoio para sugestões de código em melhorias futuras.
+
+## Evidências para o PDF final
+
+- Print da página inicial.
+- Print dos cards de repositórios carregados.
+- Print da seção de IAs utilizadas.
+- Print do repositório no GitHub.
 - Print do GitHub Pages publicado.
-- Link do video de apresentacao no YouTube.
+- Link do vídeo de apresentação no YouTube.
 
-## Observacao
+## Observação
 
-O projeto foi personalizado com as caracteristicas publicas do perfil de Pedro Henrique: estudante de Inteligencia Artificial e Ingles, em evolucao nas areas de tecnologia, desenvolvimento web e projetos digitais.
+O projeto foi personalizado com as características públicas do perfil de Pedro Henrique: estudante de Inteligência Artificial e Inglês, em evolução nas áreas de tecnologia, desenvolvimento web e projetos digitais.

@@ -1,17 +1,17 @@
-# Politica de Seguranca
+# Política de Segurança
 
-Este documento descreve as praticas de seguranca recomendadas para o PortfolioHUB de Pedro Henrique.
+Este documento descreve as práticas de segurança recomendadas para o PortfolioHUB de Pedro Henrique.
 
-## Versao suportada
+## Versão suportada
 
-| Versao | Suporte |
+| Versão | Suporte |
 | --- | --- |
 | v1.0.x | Sim |
-| anteriores | Nao |
+| anteriores | Não |
 
 ## Como reportar vulnerabilidades
 
-Nao abra uma Issue publica expondo uma falha de seguranca. Envie um e-mail para:
+Não abra uma Issue pública expondo uma falha de segurança. Envie um e-mail para:
 
 ```text
 12pedro1021@gmail.com
@@ -19,30 +19,30 @@ Nao abra uma Issue publica expondo uma falha de seguranca. Envie um e-mail para:
 
 Inclua:
 
-- Descricao do problema.
+- Descrição do problema.
 - Passos para reproduzir.
 - Impacto esperado.
 - Navegador, sistema operacional e contexto do teste.
 
-## Boas praticas aplicadas
+## Boas práticas aplicadas
 
-- Nenhum token ou chave privada fica salvo no codigo.
-- A aplicacao usa apenas endpoints publicos do GitHub.
-- O fluxo recomendado exige Pull Request antes de alteracoes na branch `main`.
-- As dependencias devem ser revisadas com frequencia.
+- Nenhum token ou chave privada fica salvo no código.
+- A aplicação usa apenas endpoints públicos do GitHub.
+- O fluxo recomendado exige Pull Request antes de alterações na branch `main`.
+- As dependências devem ser revisadas com frequência.
 - O deploy deve ser feito por GitHub Actions ou GitHub Pages.
 
 ## Escopo
 
-Estao dentro do escopo:
+Estão dentro do escopo:
 
-- Codigo-fonte deste PortfolioHUB.
-- Configuracoes do repositorio do projeto.
-- Documentacao de seguranca e colaboracao.
+- Código-fonte deste PortfolioHUB.
+- Configurações do repositório do projeto.
+- Documentação de segurança e colaboração.
 
-Estao fora do escopo:
+Estão fora do escopo:
 
 - Ataques de engenharia social.
-- Tentativas de derrubar servicos.
+- Tentativas de derrubar serviços.
 - Testes em contas, e-mails ou recursos pessoais.
-- Vulnerabilidades em servicos de terceiros fora do controle do projeto.
+- Vulnerabilidades em serviços de terceiros fora do controle do projeto.

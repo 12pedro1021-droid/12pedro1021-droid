@@ -1,9 +1,12 @@
 import { useEffect, useMemo, useState } from 'react';
 import {
   ArrowUpRight,
+  Bot,
   BookOpenCheck,
+  BrainCircuit,
   Code2,
   ExternalLink,
+  FileText,
   FolderGit2,
   GitPullRequest,
   GraduationCap,
@@ -15,6 +18,7 @@ import {
   Sparkles,
   Terminal,
   UsersRound,
+  Video,
 } from 'lucide-react';
 import './App.css';
 
@@ -24,57 +28,82 @@ const AVATAR_URL = 'https://avatars.githubusercontent.com/u/245465568?v=4';
 
 const fallbackDescriptions = {
   'adivinhe-a-senha-':
-    'Projeto em Python para praticar logica, condicoes e interacao com usuario por meio de um jogo de senha.',
+    'Projeto em Python para praticar lógica, condições e interação com o usuário por meio de um jogo de senha.',
   'jogo-da-senha':
-    'Experimento de jogo digital focado em raciocinio, regras simples e evolucao de codigo.',
+    'Experimento de jogo digital focado em raciocínio, regras simples e evolução de código.',
   'github-pages':
-    'Repositorio usado para publicar paginas estaticas e praticar hospedagem com GitHub Pages.',
+    'Repositório usado para publicar páginas estáticas e praticar hospedagem com GitHub Pages.',
   '12pedro1021-droid':
-    'Repositorio de perfil do GitHub, usado para apresentar identidade, estudos e projetos.',
+    'Repositório de perfil do GitHub, usado para apresentar identidade, estudos e projetos.',
   'github-pagess':
-    'Pratica de desenvolvimento web com HTML, CSS e publicacao em ambiente GitHub Pages.',
+    'Prática de desenvolvimento web com HTML, CSS e publicação em ambiente GitHub Pages.',
   Cumeemcasa:
-    'Site criado para treinar estrutura de paginas, organizacao visual e publicacao de conteudo.',
+    'Site criado para treinar estrutura de páginas, organização visual e publicação de conteúdo.',
   PedroHenrique2:
-    'Projeto inicial de portifolio e aprendizado continuo em desenvolvimento web.',
+    'Projeto inicial de portfólio e aprendizado contínuo em desenvolvimento web.',
 };
 
 const implementationSteps = [
   {
-    title: 'Planejamento da implantacao',
-    text: 'Definicao do objetivo do PortfolioHUB, escolha de React com Vite e organizacao das etapas com apoio de IA.',
+    title: 'Planejamento da implantação',
+    text: 'Definição do objetivo do PortfolioHUB, escolha de React com Vite e organização das etapas com apoio do Google Gemini.',
     icon: BookOpenCheck,
   },
   {
-    title: 'Integracao com GitHub',
-    text: 'Consumo da API publica do GitHub para exibir automaticamente os repositorios mais recentes de Pedro Henrique.',
+    title: 'Integração com GitHub',
+    text: 'Consumo da API pública do GitHub para exibir automaticamente os repositórios mais recentes de Pedro Henrique.',
     icon: FolderGit2,
   },
   {
-    title: 'Usuarios e seguranca',
-    text: 'Documentacao de politicas para acesso, revisao por Pull Request e cuidado com vulnerabilidades.',
+    title: 'Usuários e segurança',
+    text: 'Documentação de políticas para acesso, revisão por Pull Request e cuidado com vulnerabilidades.',
     icon: ShieldCheck,
   },
   {
     title: 'Compartilhamento e acesso',
-    text: 'Fluxo pensado para versionamento, colaboracao por branches e publicacao em GitHub Pages.',
+    text: 'Fluxo pensado para versionamento, colaboração por branches e publicação em GitHub Pages.',
     icon: GitPullRequest,
   },
   {
-    title: 'Testes e producao',
-    text: 'Build de producao, verificacao responsiva e preparo para deploy continuo pelo GitHub Actions.',
+    title: 'Testes e produção',
+    text: 'Build de produção, verificação responsiva e preparo para deploy contínuo pelo GitHub Actions.',
     icon: Rocket,
   },
   {
-    title: 'Revisao e apresentacao',
-    text: 'Conteudo organizado para apoiar a entrega final em PDF e uma apresentacao curta em video.',
+    title: 'Revisão e apresentação',
+    text: 'Conteúdo organizado para apoiar a entrega final em PDF e uma apresentação curta em vídeo no YouTube.',
     icon: Presentation,
   },
 ];
 
+const aiTools = [
+  {
+    name: 'Google Gemini',
+    use: 'Guia principal pedido no desafio para planejamento, conferência de requisitos, boas práticas e revisão da implantação.',
+    icon: Sparkles,
+  },
+  {
+    name: 'ChatGPT / Codex',
+    use: 'Apoio usado nesta correção para ajustar textos, organizar a página, revisar erros e deixar o site rodando.',
+    icon: Bot,
+  },
+  {
+    name: 'GitHub Copilot',
+    use: 'Ferramenta opcional indicada para sugestão de código e melhoria de produtividade durante novas evoluções.',
+    icon: BrainCircuit,
+  },
+];
+
+const evidenceItems = [
+  { label: 'Plano de implantação documentado', icon: FileText },
+  { label: 'Repositórios carregados pela API do GitHub', icon: FolderGit2 },
+  { label: 'Política de segurança e colaboração', icon: ShieldCheck },
+  { label: 'Roteiro para apresentação no YouTube', icon: Video },
+];
+
 const skillHighlights = [
-  { label: 'Inteligencia Artificial', icon: Sparkles },
-  { label: 'Ingles em evolucao', icon: Languages },
+  { label: 'Inteligência Artificial', icon: Sparkles },
+  { label: 'Inglês em evolução', icon: Languages },
   { label: 'Desenvolvimento Web', icon: Code2 },
   { label: 'Git e GitHub', icon: GitPullRequest },
 ];
@@ -102,7 +131,7 @@ function App() {
         ]);
 
         if (!profileResponse.ok || !reposResponse.ok) {
-          throw new Error('Nao foi possivel buscar os dados publicos do GitHub.');
+          throw new Error('Não foi possível buscar os dados públicos do GitHub.');
         }
 
         const profileData = await profileResponse.json();
@@ -121,9 +150,9 @@ function App() {
 
   const stats = useMemo(
     () => [
-      { value: profile?.public_repos ?? 7, label: 'repositorios publicos' },
+      { value: profile?.public_repos ?? 7, label: 'repositórios públicos' },
       { value: projects.filter((project) => project.has_pages).length || 3, label: 'projetos com GitHub Pages' },
-      { value: '2026', label: 'entrega final PortfolioHUB' },
+      { value: '14/06', label: 'prazo da entrega final' },
     ],
     [profile, projects],
   );
@@ -131,15 +160,16 @@ function App() {
   return (
     <div className="app-shell">
       <header className="topbar">
-        <a className="brand" href="#inicio" aria-label="Voltar ao inicio">
+        <a className="brand" href="#inicio" aria-label="Voltar ao início">
           <Terminal size={24} />
           <span>PortfolioHUB</span>
         </a>
 
-        <nav className="nav-links" aria-label="Navegacao principal">
+        <nav className="nav-links" aria-label="Navegação principal">
           <a href="#projetos">Projetos</a>
-          <a href="#implantacao">Implantacao</a>
-          <a href="#seguranca">Seguranca</a>
+          <a href="#implantacao">Implantação</a>
+          <a href="#ias">IAs usadas</a>
+          <a href="#seguranca">Segurança</a>
         </nav>
 
         <div className="social-actions">
@@ -155,14 +185,14 @@ function App() {
       <main>
         <section id="inicio" className="hero-section">
           <div className="hero-copy">
-            <p className="eyebrow">Desafio Final - Implantacao PortfolioHUB + IA</p>
+            <p className="eyebrow">Desafio Final - Implantação PortfolioHUB + IA Gemini</p>
             <h1>
               Pedro Henrique
               <span>PortfolioHUB pessoal integrado ao GitHub</span>
             </h1>
             <p className="hero-text">
-              Estudante de Inteligencia Artificial e Ingles, criando projetos digitais e evoluindo
-              em tecnologia, desenvolvimento web, logica de programacao e boas praticas de seguranca.
+              Estudante de Inteligência Artificial e Inglês, criando projetos digitais e evoluindo
+              em tecnologia, desenvolvimento web, lógica de programação e boas práticas de segurança.
             </p>
 
             <div className="hero-actions">
@@ -183,7 +213,7 @@ function App() {
             <div>
               <p className="profile-name">12pedro1021-droid</p>
               <p className="profile-bio">
-                Desenvolvo projetos digitais e estou em constante evolucao nas areas de tecnologia e aprendizado.
+                Desenvolvo projetos digitais e estou em constante evolução nas áreas de tecnologia e aprendizado.
               </p>
             </div>
             <div className="profile-tags">
@@ -211,15 +241,15 @@ function App() {
 
         <section id="projetos" className="content-section">
           <div className="section-heading">
-            <p className="eyebrow">Integracao com GitHub</p>
+            <p className="eyebrow">Integração com GitHub</p>
             <h2>Projetos recentes</h2>
             <p>
-              Estes cards sao carregados diretamente da API publica do GitHub, mantendo o PortfolioHUB atualizado
-              conforme novos repositorios forem publicados.
+              Estes cards são carregados diretamente da API pública do GitHub, mantendo o PortfolioHUB atualizado
+              conforme novos repositórios forem publicados.
             </p>
           </div>
 
-          {loading && <div className="state-message">Buscando repositorios no GitHub...</div>}
+          {loading && <div className="state-message">Buscando repositórios no GitHub...</div>}
           {error && <div className="state-message error">Erro: {error}</div>}
 
           {!loading && !error && (
@@ -231,11 +261,15 @@ function App() {
                       <Code2 size={19} />
                       {project.name}
                     </h3>
-                    <a href={project.html_url} target="_blank" rel="noopener noreferrer" title="Abrir repositorio">
+                    <a href={project.html_url} target="_blank" rel="noopener noreferrer" title="Abrir repositório">
                       <ExternalLink size={18} />
                     </a>
                   </div>
-                  <p>{project.description || fallbackDescriptions[project.name] || 'Projeto publicado no GitHub de Pedro Henrique.'}</p>
+                  <p>
+                    {project.description ||
+                      fallbackDescriptions[project.name] ||
+                      'Projeto publicado no GitHub de Pedro Henrique.'}
+                  </p>
                   <div className="project-meta">
                     <span>{project.language || 'Web'}</span>
                     <span>Atualizado em {formatDate(project.updated_at)}</span>
@@ -249,10 +283,10 @@ function App() {
         <section id="implantacao" className="content-section">
           <div className="section-heading">
             <p className="eyebrow">Requisitos do PDF</p>
-            <h2>Trilha de implantacao</h2>
+            <h2>Trilha de implantação</h2>
             <p>
               A estrutura abaixo organiza as seis partes pedidas no desafio, conectando planejamento,
-              GitHub, seguranca, testes e apresentacao final.
+              GitHub, Google Workspace, segurança, testes e apresentação final.
             </p>
           </div>
 
@@ -271,20 +305,44 @@ function App() {
           </div>
         </section>
 
+        <section id="ias" className="content-section">
+          <div className="section-heading">
+            <p className="eyebrow">IAs utilizadas</p>
+            <h2>Ferramentas de apoio declaradas</h2>
+            <p>
+              O desafio pede o uso do Google Gemini como apoio na implantação. Esta seção registra as IAs usadas
+              ou indicadas no processo, deixando a entrega transparente.
+            </p>
+          </div>
+
+          <div className="ai-grid">
+            {aiTools.map((tool) => {
+              const Icon = tool.icon;
+              return (
+                <article className="ai-card" key={tool.name}>
+                  <Icon size={24} />
+                  <h3>{tool.name}</h3>
+                  <p>{tool.use}</p>
+                </article>
+              );
+            })}
+          </div>
+        </section>
+
         <section id="seguranca" className="security-section">
           <div className="security-copy">
-            <p className="eyebrow">Seguranca e colaboracao</p>
+            <p className="eyebrow">Segurança e colaboração</p>
             <h2>Controle de acesso documentado</h2>
             <p>
-              O projeto inclui arquivos de README, plano de implantacao, politica de seguranca e guia de
-              contribuicao para demonstrar as praticas cobradas na avaliacao.
+              O projeto inclui README, plano de implantação, política de segurança e guia de contribuição para
+              demonstrar as práticas cobradas na avaliação.
             </p>
           </div>
 
           <div className="security-list">
             <div>
               <ShieldCheck size={22} />
-              <span>Branch main protegida por Pull Request e revisao.</span>
+              <span>Branch main protegida por Pull Request e revisão.</span>
             </div>
             <div>
               <UsersRound size={22} />
@@ -292,14 +350,26 @@ function App() {
             </div>
             <div>
               <GraduationCap size={22} />
-              <span>Uso de IA como apoio tecnico para revisao, documentacao e planejamento.</span>
+              <span>Uso de IA como apoio técnico para revisão, documentação e planejamento.</span>
             </div>
           </div>
+        </section>
+
+        <section className="evidence-section" aria-label="Evidências para entrega final">
+          {evidenceItems.map((item) => {
+            const Icon = item.icon;
+            return (
+              <div key={item.label}>
+                <Icon size={22} />
+                <span>{item.label}</span>
+              </div>
+            );
+          })}
         </section>
       </main>
 
       <footer className="footer">
-        <p>PortfolioHUB de Pedro Henrique - React, Vite, GitHub API e GitHub Pages.</p>
+        <p>PortfolioHUB de Pedro Henrique - React, Vite, GitHub API, Google Workspace, Gemini e GitHub Pages.</p>
       </footer>
     </div>
   );
