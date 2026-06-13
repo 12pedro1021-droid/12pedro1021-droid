@@ -1,9 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import {
   ArrowUpRight,
-  Bot,
   BookOpenCheck,
-  BrainCircuit,
   Code2,
   ExternalLink,
   FileText,
@@ -12,13 +10,11 @@ import {
   GraduationCap,
   Languages,
   Mail,
-  Presentation,
   Rocket,
   ShieldCheck,
   Sparkles,
   Terminal,
   UsersRound,
-  Video,
 } from 'lucide-react';
 import './App.css';
 
@@ -70,27 +66,22 @@ const implementationSteps = [
     icon: Rocket,
   },
   {
-    title: 'Revisão e apresentação',
-    text: 'Conteúdo organizado para apoiar a entrega final em PDF e uma apresentação curta em vídeo no YouTube.',
-    icon: Presentation,
+    title: 'Revisão final',
+    text: 'Revisei o conteúdo, conferi se o site abria corretamente e deixei os arquivos prontos para a entrega final.',
+    icon: FileText,
   },
 ];
 
 const aiTools = [
   {
     name: 'Google Gemini',
-    use: 'Guia principal pedido no desafio para planejamento, conferência de requisitos, boas práticas e revisão da implantação.',
+    use: 'Usei como apoio para entender melhor as etapas do desafio, organizar ideias e revisar alguns pontos da implantação.',
     icon: Sparkles,
   },
   {
-    name: 'ChatGPT / Codex',
-    use: 'Apoio usado nesta correção para ajustar textos, organizar a página, revisar erros e deixar o site rodando.',
-    icon: Bot,
-  },
-  {
-    name: 'GitHub Copilot',
-    use: 'Ferramenta opcional indicada para sugestão de código e melhoria de produtividade durante novas evoluções.',
-    icon: BrainCircuit,
+    name: 'ChatGPT',
+    use: 'Usei para revisar textos, corrigir erros e ajustar a organização do site antes da entrega.',
+    icon: Sparkles,
   },
 ];
 
@@ -98,7 +89,7 @@ const evidenceItems = [
   { label: 'Plano de implantação documentado', icon: FileText },
   { label: 'Repositórios carregados pela API do GitHub', icon: FolderGit2 },
   { label: 'Política de segurança e colaboração', icon: ShieldCheck },
-  { label: 'Roteiro para apresentação no YouTube', icon: Video },
+  { label: 'Site publicado no GitHub Pages', icon: Rocket },
 ];
 
 const skillHighlights = [
@@ -191,8 +182,8 @@ function App() {
               <span>PortfolioHUB pessoal integrado ao GitHub</span>
             </h1>
             <p className="hero-text">
-              Estudante de Inteligência Artificial e Inglês, criando projetos digitais e evoluindo
-              em tecnologia, desenvolvimento web, lógica de programação e boas práticas de segurança.
+              Este é meu portfólio para reunir os projetos que estou desenvolvendo e mostrar minha evolução
+              em tecnologia, programação, GitHub e Inteligência Artificial.
             </p>
 
             <div className="hero-actions">
@@ -213,7 +204,7 @@ function App() {
             <div>
               <p className="profile-name">12pedro1021-droid</p>
               <p className="profile-bio">
-                Desenvolvo projetos digitais e estou em constante evolução nas áreas de tecnologia e aprendizado.
+                Estou aprendendo desenvolvimento web, lógica de programação e uso de IA para melhorar meus projetos.
               </p>
             </div>
             <div className="profile-tags">
@@ -244,8 +235,8 @@ function App() {
             <p className="eyebrow">Integração com GitHub</p>
             <h2>Projetos recentes</h2>
             <p>
-              Estes cards são carregados diretamente da API pública do GitHub, mantendo o PortfolioHUB atualizado
-              conforme novos repositórios forem publicados.
+              Aqui aparecem meus repositórios do GitHub. Assim, quando eu atualizar ou criar novos projetos,
+              o portfólio continua acompanhando minha evolução.
             </p>
           </div>
 
@@ -285,8 +276,8 @@ function App() {
             <p className="eyebrow">Requisitos do PDF</p>
             <h2>Trilha de implantação</h2>
             <p>
-              A estrutura abaixo organiza as seis partes pedidas no desafio, conectando planejamento,
-              GitHub, Google Workspace, segurança, testes e apresentação final.
+              Organizei esta parte para mostrar como fiz a implantação do PortfolioHUB e quais cuidados usei
+              com GitHub, segurança, testes e publicação.
             </p>
           </div>
 
@@ -308,10 +299,10 @@ function App() {
         <section id="ias" className="content-section">
           <div className="section-heading">
             <p className="eyebrow">IAs utilizadas</p>
-            <h2>Ferramentas de apoio declaradas</h2>
+            <h2>Ferramentas que usei como apoio</h2>
             <p>
-              O desafio pede o uso do Google Gemini como apoio na implantação. Esta seção registra as IAs usadas
-              ou indicadas no processo, deixando a entrega transparente.
+              Usei IA como ajuda para revisar ideias e organizar melhor a entrega, mas o portfólio foi
+              personalizado para representar meus projetos e minha forma de apresentar o trabalho.
             </p>
           </div>
 
@@ -334,8 +325,7 @@ function App() {
             <p className="eyebrow">Segurança e colaboração</p>
             <h2>Controle de acesso documentado</h2>
             <p>
-              O projeto inclui README, plano de implantação, política de segurança e guia de contribuição para
-              demonstrar as práticas cobradas na avaliação.
+              Também deixei documentado como o projeto pode ser atualizado, revisado e publicado com mais cuidado.
             </p>
           </div>
 
@@ -350,7 +340,7 @@ function App() {
             </div>
             <div>
               <GraduationCap size={22} />
-              <span>Uso de IA como apoio técnico para revisão, documentação e planejamento.</span>
+              <span>Uso de IA apenas como apoio para revisar e organizar melhor a entrega.</span>
             </div>
           </div>
         </section>
@@ -369,7 +359,7 @@ function App() {
       </main>
 
       <footer className="footer">
-        <p>PortfolioHUB de Pedro Henrique - React, Vite, GitHub API, Google Workspace, Gemini e GitHub Pages.</p>
+        <p>PortfolioHUB de Pedro Henrique - React, Vite, GitHub API, Gemini e GitHub Pages.</p>
       </footer>
     </div>
   );
